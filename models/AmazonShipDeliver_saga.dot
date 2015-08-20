@@ -1,0 +1,99 @@
+digraph AmazonShipDeliver_saga {
+	compound=true;
+	concentrate=true;
+	rankdir=TB;
+	Ress3 [shape="parallelogram", label="Money (C)"];
+	Ress7 [shape="parallelogram", label="Book"];
+	Ress14 [shape="parallelogram", label="Book"];
+	Ress16 [shape="parallelogram", label="Tansportation Right"];
+	Ress22 [shape="parallelogram", label="Book"];
+	Ress24 [shape="parallelogram", label="Box"];
+	Ress30 [shape="parallelogram", label="Book"];
+	Ress37 [shape="parallelogram", label="Money (A)"];
+
+	subgraph cluster0 {
+		C1 [shape=diamond, label="E2^-1"];
+		DEvt2 [label="Transfer:Ownership"];
+		DEvt2 -> C1
+		IEvt6 [label="Transfer:Ownership"];
+		C1 -> IEvt6
+	}
+	Ress3 -> DEvt2
+	Agent4 [shape=box, label="Amazon", style="dotted"];
+	Agent5 [shape=box, label="Client", style="dotted"];
+	Agent4 -> DEvt2 [style=dotted, arrowhead=vee];
+	DEvt2 -> Agent5 [style=dotted, arrowhead=vee];
+	IEvt6 -> Ress7
+	Agent5 -> IEvt6 [style=dotted, arrowhead=vee];
+	IEvt6 -> Agent4 [style=dotted, arrowhead=vee];
+	subgraph cluster8 {
+		C9 [shape=diamond, label="C2^-1"];
+		DEvt10 [label="Availability:true->false\nLocation:Customer->Warehouse"];
+		DEvt10 -> C9
+		IEvt13 [label="Availability:false->true"];
+		C9 -> IEvt13
+		IEvt15 [label="Existence:false->true"];
+		C9 -> IEvt15
+	}
+	Ress7 -> DEvt10
+	Agent11 [shape=box, label="Amazon", style="dotted"];
+	Agent12 [shape=box, label="Shipping Comp", style="dotted"];
+	Agent11 -> DEvt10 [style=dotted, arrowhead=vee];
+	DEvt10 -> Agent12 [style=dotted, arrowhead=vee];
+	IEvt13 -> Ress14
+	Agent12 -> IEvt13 [style=dotted, arrowhead=vee];
+	IEvt13 -> Agent11 [style=dotted, arrowhead=vee];
+	IEvt15 -> Ress16
+	Agent12 -> IEvt15 [style=dotted, arrowhead=vee];
+	IEvt15 -> Agent11 [style=dotted, arrowhead=vee];
+	subgraph cluster17 {
+		C18 [shape=diamond, label="C1^-1"];
+		DEvt19 [label="Availability:true->true\nPacked:true->false"];
+		DEvt19 -> C18
+		IEvt21 [label="Availability:false->true"];
+		C18 -> IEvt21
+		IEvt23 [label="Existence:false->true\nAvailability:false->true"];
+		C18 -> IEvt23
+	}
+	Ress14 -> DEvt19
+	Agent20 [shape=box, label="Amazon", style="dotted"];
+	Agent20 -> DEvt19 [style=dotted, arrowhead=vee];
+	DEvt19 -> Agent20 [style=dotted, arrowhead=vee];
+	IEvt21 -> Ress22
+	Agent20 -> IEvt21 [style=dotted, arrowhead=vee];
+	IEvt21 -> Agent20 [style=dotted, arrowhead=vee];
+	IEvt23 -> Ress24
+	Agent20 -> IEvt23 [style=dotted, arrowhead=vee];
+	IEvt23 -> Agent20 [style=dotted, arrowhead=vee];
+	subgraph cluster25 {
+		C26 [shape=diamond, label="C0^-1"];
+		DEvt27 [label="Availability:true->false\nAutographed:true->false"];
+		DEvt27 -> C26
+		IEvt29 [label="Availability:true->true"];
+		C26 -> IEvt29
+	}
+	Ress22 -> DEvt27
+	Agent28 [shape=box, label="Amazon", style="dotted"];
+	Agent28 -> DEvt27 [style=dotted, arrowhead=vee];
+	DEvt27 -> Agent28 [style=dotted, arrowhead=vee];
+	IEvt29 -> Ress30
+	Agent28 -> IEvt29 [style=dotted, arrowhead=vee];
+	IEvt29 -> Agent28 [style=dotted, arrowhead=vee];
+	subgraph cluster31 {
+		C32 [shape=diamond, label="E1^-1"];
+		DEvt33 [label="Transfer:Ownership"];
+		DEvt33 -> C32
+		IEvt36 [label="Transfer:Ownership"];
+		C32 -> IEvt36
+	}
+	Ress16 -> DEvt33
+	Agent34 [shape=box, label="Amazon", style="dotted"];
+	Agent35 [shape=box, label="Shipping Comp", style="dotted"];
+	Agent34 -> DEvt33 [style=dotted, arrowhead=vee];
+	DEvt33 -> Agent35 [style=dotted, arrowhead=vee];
+	IEvt36 -> Ress37
+	Agent35 -> IEvt36 [style=dotted, arrowhead=vee];
+	IEvt36 -> Agent34 [style=dotted, arrowhead=vee];
+
+}
+

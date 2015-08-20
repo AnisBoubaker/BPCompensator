@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bpcompensator
+Bundle-SymbolicName: ca.uqam.latece.bpcompensator
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: bpcompensator.jar,
+ eclipse/plugins/org.eclipse.emf.ecore_2.8.3.v20130125-0546.jar,
+ eclipse/plugins/org.eclipse.emf.common_2.8.0.v20130125-0546.jar,
+ eclipse/plugins/org.eclipse.emf.ecore.change_2.8.0.v20130125-0546.jar,
+ eclipse/plugins/org.eclipse.emf.ecore.xmi_2.8.1.v20130125-0546.jar
+Export-Package: .,
+ util,
+ visitors
+Require-Bundle: ca.uqam.latece.rea;bundle-version="1.0.0"

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ASCII"?>
+<rea:ValueModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rea="ca.uqam.latece.rea">
+  <resources xsi:type="rea:Resource" events="//@processDefinition/@rEAProcesses.2/@incrementEvt.0 //@processDefinition/@rEAProcesses.3/@decrementEvt.0 //@processDefinition/@rEAProcesses.3/@incrementEvt.0 //@processDefinition/@rEAProcesses.4/@decrementEvt.0 //@processDefinition/@rEAProcesses.1/@decrementEvt.0 //@processDefinition/@rEAProcesses.1/@incrementEvt.0 //@processDefinition/@rEAProcesses.2/@decrementEvt.0 //@compensationProcess/@rEAProcesses.0/@incrementEvt.0 //@compensationProcess/@rEAProcesses.1/@incrementEvt.0 //@compensationProcess/@rEAProcesses.1/@decrementEvt.0 //@compensationProcess/@rEAProcesses.2/@incrementEvt.0 //@compensationProcess/@rEAProcesses.2/@decrementEvt.0 //@compensationProcess/@rEAProcesses.3/@incrementEvt.0 //@compensationProcess/@rEAProcesses.3/@decrementEvt.0" name="Book" claims="//@resources.8 //@resources.12 //@resources.16 //@resources.20 //@resources.24 //@resources.28 //@resources.32 //@resources.36">
+    <rights name="Ownership" firstOwner="//@agents.0" transfers="//@processDefinition/@rEAProcesses.4/@decrementEvt.0/@rightTransfers.0 //@compensationProcess/@rEAProcesses.0/@incrementEvt.0/@rightTransfers.0"/>
+    <rights name="Control" firstOwner="//@agents.0"/>
+    <properties name="Existence" initialState="true" primaryProperty="true"/>
+    <properties name="Availability" initialState="true" alterations="//@processDefinition/@rEAProcesses.2/@decrementEvt.0/@alterations.0 //@processDefinition/@rEAProcesses.2/@incrementEvt.0/@alterations.0 //@processDefinition/@rEAProcesses.3/@decrementEvt.0/@alterations.0 //@processDefinition/@rEAProcesses.3/@incrementEvt.0/@alterations.0 //@processDefinition/@rEAProcesses.1/@decrementEvt.0/@alterations.0 //@processDefinition/@rEAProcesses.1/@incrementEvt.0/@alterations.0 //@compensationProcess/@rEAProcesses.1/@incrementEvt.0/@alterations.0 //@compensationProcess/@rEAProcesses.1/@decrementEvt.0/@alterations.0 //@compensationProcess/@rEAProcesses.2/@incrementEvt.0/@alterations.0 //@compensationProcess/@rEAProcesses.2/@decrementEvt.0/@alterations.0 //@compensationProcess/@rEAProcesses.3/@incrementEvt.0/@alterations.0 //@compensationProcess/@rEAProcesses.3/@decrementEvt.0/@alterations.0" recoverable="FullyRecoverable" primaryProperty="true"/>
+    <properties name="Packed" initialState="false" alterations="//@processDefinition/@rEAProcesses.2/@incrementEvt.0/@alterations.1 //@compensationProcess/@rEAProcesses.2/@decrementEvt.0/@alterations.1" recoverable="FullyRecoverable"/>
+    <properties name="Location" initialState="Warehouse" alterations="//@processDefinition/@rEAProcesses.3/@incrementEvt.0/@alterations.1 //@compensationProcess/@rEAProcesses.1/@decrementEvt.0/@alterations.1" recoverable="FullyRecoverable"/>
+    <properties name="Autographed" initialState="false" alterations="//@processDefinition/@rEAProcesses.1/@incrementEvt.0/@alterations.1"/>
+  </resources>
+  <resources xsi:type="rea:Resource" events="//@processDefinition/@rEAProcesses.2/@decrementEvt.1" name="Box" claims="//@resources.7 //@resources.11 //@resources.15 //@resources.19 //@resources.23 //@resources.27 //@resources.31 //@resources.35">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+    <rights name="Control" firstOwner="//@agents.0"/>
+    <properties name="Existence" initialState="true" alterations="//@processDefinition/@rEAProcesses.2/@decrementEvt.1/@alterations.0" primaryProperty="true"/>
+    <properties name="Availability" initialState="true" alterations="//@processDefinition/@rEAProcesses.2/@decrementEvt.1/@alterations.1" recoverable="FullyRecoverable" primaryProperty="true"/>
+  </resources>
+  <resources xsi:type="rea:Resource" events="//@processDefinition/@rEAProcesses.0/@decrementEvt.0" name="Money (A)">
+    <rights name="Ownership" firstOwner="//@agents.0" transfers="//@processDefinition/@rEAProcesses.0/@decrementEvt.0/@rightTransfers.0"/>
+    <rights name="Control" firstOwner="//@agents.0"/>
+    <properties name="Existence" initialState="true" primaryProperty="true"/>
+  </resources>
+  <resources xsi:type="rea:Resource" events="//@processDefinition/@rEAProcesses.0/@incrementEvt.0 //@processDefinition/@rEAProcesses.3/@decrementEvt.1" name="Tansportation Right" claims="//@resources.6 //@resources.10 //@resources.14 //@resources.18 //@resources.22 //@resources.26 //@resources.30 //@resources.34">
+    <rights name="Ownership" firstOwner="//@agents.1" transfers="//@processDefinition/@rEAProcesses.0/@incrementEvt.0/@rightTransfers.0"/>
+    <rights name="Control" firstOwner="//@agents.1"/>
+    <properties name="Existence" initialState="true" alterations="//@processDefinition/@rEAProcesses.3/@decrementEvt.1/@alterations.0" primaryProperty="true"/>
+  </resources>
+  <resources xsi:type="rea:Resource" events="//@processDefinition/@rEAProcesses.4/@incrementEvt.0 //@compensationProcess/@rEAProcesses.0/@decrementEvt.0" name="Money (C)">
+    <rights name="Ownership" firstOwner="//@agents.2" transfers="//@processDefinition/@rEAProcesses.4/@incrementEvt.0/@rightTransfers.0 //@compensationProcess/@rEAProcesses.0/@decrementEvt.0/@rightTransfers.0"/>
+    <rights name="Control" firstOwner="//@agents.2"/>
+    <properties name="Existence" initialState="true" primaryProperty="true"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" name="Settlement Resource">
+    <rights name="Ownership"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0"/>
+  </resources>
+  <resources xsi:type="rea:Resource" events="//@compensationProcess/@rEAProcesses.4/@incrementEvt.0" name="Settlement Resource">
+    <rights name="Ownership" transfers="//@compensationProcess/@rEAProcesses.4/@incrementEvt.0/@rightTransfers.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" events="//@compensationProcess/@rEAProcesses.1/@incrementEvt.1 //@compensationProcess/@rEAProcesses.4/@decrementEvt.0" name="Tansportation Right" claimForResource="//@resources.3">
+    <rights name="Ownership" firstOwner="//@agents.0" transfers="//@compensationProcess/@rEAProcesses.4/@decrementEvt.0/@rightTransfers.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" events="//@compensationProcess/@rEAProcesses.2/@incrementEvt.1 //@compensationProcess/@rEAProcesses.4/@decrementEvt.1" name="Box" claimForResource="//@resources.1">
+    <rights name="Ownership" firstOwner="//@agents.0" transfers="//@compensationProcess/@rEAProcesses.4/@decrementEvt.1/@rightTransfers.0"/>
+  </resources>
+  <resources xsi:type="rea:Claim" events="//@compensationProcess/@rEAProcesses.3/@incrementEvt.1 //@compensationProcess/@rEAProcesses.4/@decrementEvt.2" name="Book" claimForProperty="//@resources.0/@properties.4" claimForResource="//@resources.0">
+    <rights name="Ownership" firstOwner="//@agents.0" transfers="//@compensationProcess/@rEAProcesses.4/@decrementEvt.2/@rightTransfers.0"/>
+  </resources>
+  <agents name="Amazon"/>
+  <agents name="Shipping Comp"/>
+  <agents name="Client"/>
+  <agents xsi:type="rea:AgentAlias" name="Accountable Agent" accountableAgent="true"/>
+  <processDefinition>
+    <rEAProcesses xsi:type="rea:Exchange" iD="E1" successors="C2">
+      <incrementEvt resource="//@resources.3" provider="//@agents.1" receiver="//@agents.0" name="Get Transportation">
+        <rightTransfers right="//@resources.3/@rights.0" newOwner="//@agents.0"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.2" provider="//@agents.0" receiver="//@agents.1" name="Pay for transportation">
+        <rightTransfers right="//@resources.2/@rights.0" newOwner="//@agents.1"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Conversion" iD="C0" successors="C1">
+      <incrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Get Book Autographed">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+        <alterations newState="true" property="//@resources.0/@properties.4"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Provide Book">
+        <alterations newState="false" property="//@resources.0/@properties.1"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Conversion" predecessors="C0" iD="C1" successors="C2">
+      <incrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Package Order">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+        <alterations newState="true" property="//@resources.0/@properties.2"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Provide Book">
+        <alterations newState="false" property="//@resources.0/@properties.1"/>
+      </decrementEvt>
+      <decrementEvt resource="//@resources.1" provider="//@agents.0" receiver="//@agents.0" name="Provide Box">
+        <alterations newState="false" property="//@resources.1/@properties.0"/>
+        <alterations newState="false" property="//@resources.1/@properties.1"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Conversion" predecessors="C1 E1" iD="C2" successors="E2">
+      <incrementEvt resource="//@resources.0" provider="//@agents.1" receiver="//@agents.0" name="Ship Book">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+        <alterations newState="Customer" property="//@resources.0/@properties.3"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.1" name="Provide Book">
+        <alterations newState="false" property="//@resources.0/@properties.1"/>
+      </decrementEvt>
+      <decrementEvt resource="//@resources.3" provider="//@agents.0" receiver="//@agents.1" name="Provide Transportation">
+        <alterations newState="false" property="//@resources.3/@properties.0"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Exchange" predecessors="C2" iD="E2">
+      <incrementEvt resource="//@resources.4" provider="//@agents.2" receiver="//@agents.0" name="Receive Paiment">
+        <rightTransfers right="//@resources.4/@rights.0" newOwner="//@agents.0"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.2" name="Deliver Order">
+        <rightTransfers right="//@resources.0/@rights.0" newOwner="//@agents.2"/>
+      </decrementEvt>
+    </rEAProcesses>
+  </processDefinition>
+  <compensationProcess>
+    <rEAProcesses xsi:type="rea:Exchange" iD="E2^-1" successors="C2^-1">
+      <incrementEvt resource="//@resources.0" provider="//@agents.2" receiver="//@agents.0" name="Deliver Order^-1">
+        <rightTransfers right="//@resources.0/@rights.0" newOwner="//@agents.0"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.4" provider="//@agents.0" receiver="//@agents.2" name="Receive Paiment^-1">
+        <rightTransfers right="//@resources.4/@rights.0" newOwner="//@agents.2"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Conversion" predecessors="E2^-1" iD="C2^-1" successors="C1^-1 E-Settlement">
+      <incrementEvt resource="//@resources.0" provider="//@agents.1" receiver="//@agents.0" name="Provide Book^-1">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+      </incrementEvt>
+      <incrementEvt resource="//@resources.34" provider="//@agents.3" receiver="//@agents.0" name="Issue Claim"/>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.1" name="Ship Book^-1">
+        <alterations newState="false" property="//@resources.0/@properties.1"/>
+        <alterations newState="Warehouse" property="//@resources.0/@properties.3"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Conversion" predecessors="C2^-1" iD="C1^-1" successors="C0^-1 E-Settlement">
+      <incrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Provide Book^-1">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+      </incrementEvt>
+      <incrementEvt resource="//@resources.35" provider="//@agents.3" receiver="//@agents.0" name="Issue Claim"/>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Package Order^-1">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+        <alterations newState="false" property="//@resources.0/@properties.2"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Conversion" predecessors="C1^-1" iD="C0^-1" successors="E-Settlement">
+      <incrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Provide Book^-1">
+        <alterations newState="true" property="//@resources.0/@properties.1"/>
+      </incrementEvt>
+      <incrementEvt resource="//@resources.36" provider="//@agents.3" receiver="//@agents.0" name="Issue Claim"/>
+      <decrementEvt resource="//@resources.0" provider="//@agents.0" receiver="//@agents.0" name="Get Book Autographed^-1">
+        <alterations newState="false" property="//@resources.0/@properties.1"/>
+      </decrementEvt>
+    </rEAProcesses>
+    <rEAProcesses xsi:type="rea:Exchange" predecessors="C2^-1 C1^-1 C0^-1" iD="E-Settlement">
+      <incrementEvt resource="//@resources.33" provider="//@agents.3" receiver="//@agents.0" name="Settle Claims">
+        <rightTransfers right="//@resources.33/@rights.0" newOwner="//@agents.0"/>
+      </incrementEvt>
+      <decrementEvt resource="//@resources.34" provider="//@agents.0" receiver="//@agents.3" name="Provide Claim">
+        <rightTransfers right="//@resources.34/@rights.0" newOwner="//@agents.3"/>
+      </decrementEvt>
+      <decrementEvt resource="//@resources.35" provider="//@agents.0" receiver="//@agents.3" name="Provide Claim">
+        <rightTransfers right="//@resources.35/@rights.0" newOwner="//@agents.3"/>
+      </decrementEvt>
+      <decrementEvt resource="//@resources.36" provider="//@agents.0" receiver="//@agents.3" name="Provide Claim">
+        <rightTransfers right="//@resources.36/@rights.0" newOwner="//@agents.3"/>
+      </decrementEvt>
+    </rEAProcesses>
+  </compensationProcess>
+</rea:ValueModel>

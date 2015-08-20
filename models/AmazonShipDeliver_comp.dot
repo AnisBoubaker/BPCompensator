@@ -1,0 +1,118 @@
+digraph AmazonShipDeliver_comp {
+	compound=true;
+	concentrate=true;
+	rankdir=TB;
+	Ress3 [shape="parallelogram", label="Money (C)"];
+	Ress7 [shape="parallelogram", label="Book"];
+	Ress14 [shape="parallelogram", label="Book"];
+	Ress16 [shape="parallelogram", label="<<claim>>\nTansportation Right"];
+	Ress23 [shape="parallelogram", label="Book"];
+	Ress25 [shape="parallelogram", label="<<claim>>\nBox"];
+	Ress32 [shape="parallelogram", label="Book"];
+	Ress34 [shape="parallelogram", label="<<claim>>\nBook[Autographed]"];
+	Ress44 [shape="parallelogram", label="Settlement Resource"];
+
+	subgraph cluster0 {
+		C1 [shape=diamond, label="E2^-1"];
+		DEvt2 [label="Transfer:Ownership"];
+		DEvt2 -> C1
+		IEvt6 [label="Transfer:Ownership"];
+		C1 -> IEvt6
+	}
+	Ress3 -> DEvt2
+	Agent4 [shape=box, label="Amazon", style="dotted"];
+	Agent5 [shape=box, label="Client", style="dotted"];
+	Agent4 -> DEvt2 [style=dotted, arrowhead=vee];
+	DEvt2 -> Agent5 [style=dotted, arrowhead=vee];
+	IEvt6 -> Ress7
+	Agent5 -> IEvt6 [style=dotted, arrowhead=vee];
+	IEvt6 -> Agent4 [style=dotted, arrowhead=vee];
+	subgraph cluster8 {
+		C9 [shape=diamond, label="C2^-1"];
+		DEvt10 [label="Availability:true->false\nLocation:Customer->Warehouse"];
+		DEvt10 -> C9
+		IEvt13 [label="Availability:false->true"];
+		C9 -> IEvt13
+		IEvt15 [label="Issue Claim"];
+		C9 -> IEvt15
+	}
+	Ress7 -> DEvt10
+	Agent11 [shape=box, label="Amazon", style="dotted"];
+	Agent12 [shape=box, label="Shipping Comp", style="dotted"];
+	Agent11 -> DEvt10 [style=dotted, arrowhead=vee];
+	DEvt10 -> Agent12 [style=dotted, arrowhead=vee];
+	IEvt13 -> Ress14
+	Agent12 -> IEvt13 [style=dotted, arrowhead=vee];
+	IEvt13 -> Agent11 [style=dotted, arrowhead=vee];
+	IEvt15 -> Ress16
+	Agent17 [shape=box, label="Accountable Agent", style="dotted"];
+	Agent17 -> IEvt15 [style=dotted, arrowhead=vee];
+	IEvt15 -> Agent11 [style=dotted, arrowhead=vee];
+	subgraph cluster18 {
+		C19 [shape=diamond, label="C1^-1"];
+		DEvt20 [label="Availability:true->true\nPacked:true->false"];
+		DEvt20 -> C19
+		IEvt22 [label="Availability:false->true"];
+		C19 -> IEvt22
+		IEvt24 [label="Issue Claim"];
+		C19 -> IEvt24
+	}
+	Ress14 -> DEvt20
+	Agent21 [shape=box, label="Amazon", style="dotted"];
+	Agent21 -> DEvt20 [style=dotted, arrowhead=vee];
+	DEvt20 -> Agent21 [style=dotted, arrowhead=vee];
+	IEvt22 -> Ress23
+	Agent21 -> IEvt22 [style=dotted, arrowhead=vee];
+	IEvt22 -> Agent21 [style=dotted, arrowhead=vee];
+	IEvt24 -> Ress25
+	Agent26 [shape=box, label="Accountable Agent", style="dotted"];
+	Agent26 -> IEvt24 [style=dotted, arrowhead=vee];
+	IEvt24 -> Agent21 [style=dotted, arrowhead=vee];
+	subgraph cluster27 {
+		C28 [shape=diamond, label="C0^-1"];
+		DEvt29 [label="Availability:true->false"];
+		DEvt29 -> C28
+		IEvt31 [label="Availability:true->true"];
+		C28 -> IEvt31
+		IEvt33 [label="Issue Claim"];
+		C28 -> IEvt33
+	}
+	Ress23 -> DEvt29
+	Agent30 [shape=box, label="Amazon", style="dotted"];
+	Agent30 -> DEvt29 [style=dotted, arrowhead=vee];
+	DEvt29 -> Agent30 [style=dotted, arrowhead=vee];
+	IEvt31 -> Ress32
+	Agent30 -> IEvt31 [style=dotted, arrowhead=vee];
+	IEvt31 -> Agent30 [style=dotted, arrowhead=vee];
+	IEvt33 -> Ress34
+	Agent35 [shape=box, label="Accountable Agent", style="dotted"];
+	Agent35 -> IEvt33 [style=dotted, arrowhead=vee];
+	IEvt33 -> Agent30 [style=dotted, arrowhead=vee];
+	subgraph cluster36 {
+		C37 [shape=diamond, label="E-Settlement"];
+		DEvt38 [label="Transfer:Ownership"];
+		DEvt38 -> C37
+		DEvt41 [label="Transfer:Ownership"];
+		DEvt41 -> C37
+		DEvt42 [label="Transfer:Ownership"];
+		DEvt42 -> C37
+		IEvt43 [label="Transfer:Ownership"];
+		C37 -> IEvt43
+	}
+	Ress16 -> DEvt38
+	Agent39 [shape=box, label="Amazon", style="dotted"];
+	Agent40 [shape=box, label="Accountable Agent", style="dotted"];
+	Agent39 -> DEvt38 [style=dotted, arrowhead=vee];
+	DEvt38 -> Agent40 [style=dotted, arrowhead=vee];
+	Ress25 -> DEvt41
+	Agent39 -> DEvt41 [style=dotted, arrowhead=vee];
+	DEvt41 -> Agent40 [style=dotted, arrowhead=vee];
+	Ress34 -> DEvt42
+	Agent39 -> DEvt42 [style=dotted, arrowhead=vee];
+	DEvt42 -> Agent40 [style=dotted, arrowhead=vee];
+	IEvt43 -> Ress44
+	Agent40 -> IEvt43 [style=dotted, arrowhead=vee];
+	IEvt43 -> Agent39 [style=dotted, arrowhead=vee];
+
+}
+
