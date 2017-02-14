@@ -29,8 +29,6 @@ public class BPCompensator {
 		moneySettlement.getRights().add(ownershipRight);
 		vm.getResources().add(moneySettlement);
 		
-		SagaVisitor saga = new SagaVisitor();
-		CompensationEngineVisitor compensator = new CompensationEngineVisitor(vm, moneySettlement);
 		GraphVizVisitor gv = new GraphVizVisitor();
 		
 		//Remove previously computed compensation process.
@@ -39,6 +37,7 @@ public class BPCompensator {
 		vm.getProcessDefinition().accept(gv);
 		gv.save("AmazonShipDeliver");
 		
+		SagaVisitor saga = new SagaVisitor();
 		vm.getProcessDefinition().accept(saga);
 		vm.setCompensationProcess(saga.getCompensationBusinessProcess());
 		amazon.save();
@@ -46,6 +45,7 @@ public class BPCompensator {
 		vm.getCompensationProcess().accept(gv);
 		gv.save("AmazonShipDeliver_saga");
 		
+		CompensationEngineVisitor compensator = new CompensationEngineVisitor(vm, moneySettlement);
 		vm.getCompensationProcess().accept(compensator);
 		amazon.save();
 		

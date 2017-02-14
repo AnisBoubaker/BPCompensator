@@ -1,0 +1,417 @@
+src/main/java/BPCompensator.java:15:	All classes and interfaces must belong to a named package
+src/main/java/BPCompensator.java:15:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/BPCompensator.java:15:	headerCommentRequirement Required
+src/main/java/BPCompensator.java:17:	Avoid unused private fields such as 'LOGGER'.
+src/main/java/BPCompensator.java:17:	fieldCommentRequirement Required
+src/main/java/BPCompensator.java:19:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/BPCompensator.java:19:	Parameter 'args' is not assigned and could be declared final
+src/main/java/BPCompensator.java:19:	publicMethodCommentRequirement Required
+src/main/java/BPCompensator.java:22:	Local variable 'amazon' could be declared final
+src/main/java/BPCompensator.java:23:	Avoid variables with short names like vm
+src/main/java/BPCompensator.java:23:	Local variable 'vm' could be declared final
+src/main/java/BPCompensator.java:25:	Local variable 'moneySettlement' could be declared final
+src/main/java/BPCompensator.java:25:	Potential violation of Law of Demeter (static property access)
+src/main/java/BPCompensator.java:27:	Local variable 'ownershipRight' could be declared final
+src/main/java/BPCompensator.java:27:	Potential violation of Law of Demeter (static property access)
+src/main/java/BPCompensator.java:29:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:30:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:30:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:32:	Local variable 'saga' could be declared final
+src/main/java/BPCompensator.java:33:	Local variable 'compensator' could be declared final
+src/main/java/BPCompensator.java:34:	Avoid variables with short names like gv
+src/main/java/BPCompensator.java:34:	Local variable 'gv' could be declared final
+src/main/java/BPCompensator.java:37:	Avoid using if statements without curly braces
+src/main/java/BPCompensator.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:46:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/BPCompensator.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/BPCompensator.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/REAModel.java:13:	All classes and interfaces must belong to a named package
+src/main/java/REAModel.java:13:	headerCommentRequirement Required
+src/main/java/REAModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/REAModel.java:15:	fieldCommentRequirement Required
+src/main/java/REAModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/REAModel.java:16:	fieldCommentRequirement Required
+src/main/java/REAModel.java:18:	Parameter 'modelResourcePath' is not assigned and could be declared final
+src/main/java/REAModel.java:18:	publicMethodCommentRequirement Required
+src/main/java/REAModel.java:22:	Parameter 'filePath' is not assigned and could be declared final
+src/main/java/REAModel.java:24:	Potential violation of Law of Demeter (static property access)
+src/main/java/REAModel.java:27:	Local variable 'reg' could be declared final
+src/main/java/REAModel.java:28:	Avoid variables with short names like m
+src/main/java/REAModel.java:28:	Local variable 'm' could be declared final
+src/main/java/REAModel.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/REAModel.java:32:	Local variable 'resSet' could be declared final
+src/main/java/REAModel.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/REAModel.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/REAModel.java:43:	publicMethodCommentRequirement Required
+src/main/java/REAModel.java:47:	publicMethodCommentRequirement Required
+src/main/java/REAModel.java:52:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/util/MyLogFormatter.java:9:	Each class should declare at least one constructor
+src/main/java/util/MyLogFormatter.java:9:	headerCommentRequirement Required
+src/main/java/util/MyLogFormatter.java:11:	Parameter 'rec' is not assigned and could be declared final
+src/main/java/util/MyLogFormatter.java:11:	publicMethodCommentRequirement Required
+src/main/java/util/MyLogFormatter.java:12:	Local variable 'buf' could be declared final
+src/main/java/util/MyLogFormatter.java:14:	Avoid concatenating nonliterals in a StringBuffer/StringBuilder constructor or append().
+src/main/java/util/MyLogFormatter.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/util/MyLogFormatter.java:16:	Potential violation of Law of Demeter (static property access)
+src/main/java/util/MyLogFormatter.java:18:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/util/MyLogFormatter.java:18:	Potential violation of Law of Demeter (static property access)
+src/main/java/util/MyLogFormatter.java:19:	Avoid appending characters as strings in StringBuffer.append.
+src/main/java/util/MyLogFormatter.java:22:	StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+src/main/java/util/MyLogFormatter.java:29:	Avoid variables with short names like h
+src/main/java/util/MyLogFormatter.java:29:	Parameter 'h' is not assigned and could be declared final
+src/main/java/util/MyLogFormatter.java:29:	publicMethodCommentRequirement Required
+src/main/java/util/MyLogFormatter.java:35:	Avoid variables with short names like h
+src/main/java/util/MyLogFormatter.java:35:	Parameter 'h' is not assigned and could be declared final
+src/main/java/util/MyLogFormatter.java:35:	publicMethodCommentRequirement Required
+src/main/java/util/MyLogger.java:3:	Avoid unused imports such as 'java.util.Iterator'
+src/main/java/util/MyLogger.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/util/MyLogger.java:9:	headerCommentRequirement Required
+src/main/java/util/MyLogger.java:10:	fieldCommentRequirement Required
+src/main/java/util/MyLogger.java:11:	fieldCommentRequirement Required
+src/main/java/util/MyLogger.java:13:	Found 'UR'-anomaly for variable 'h' (lines '13'-'18').
+src/main/java/util/MyLogger.java:13:	publicMethodCommentRequirement Required
+src/main/java/util/MyLogger.java:15:	Local variable 'logger' could be declared final
+src/main/java/util/MyLogger.java:16:	Local variable 'handlers' could be declared final
+src/main/java/util/MyLogger.java:17:	Local variable 'h' could be declared final
+src/main/java/util/ReverseIterator.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/util/ReverseIterator.java:10:	Private field 'elements' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/util/ReverseIterator.java:10:	fieldCommentRequirement Required
+src/main/java/util/ReverseIterator.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/util/ReverseIterator.java:11:	fieldCommentRequirement Required
+src/main/java/util/ReverseIterator.java:14:	Avoid variables with short names like l
+src/main/java/util/ReverseIterator.java:14:	Parameter 'l' is not assigned and could be declared final
+src/main/java/util/ReverseIterator.java:14:	publicMethodCommentRequirement Required
+src/main/java/util/ReverseIterator.java:20:	publicMethodCommentRequirement Required
+src/main/java/util/ReverseIterator.java:25:	publicMethodCommentRequirement Required
+src/main/java/util/ReverseIterator.java:31:	publicMethodCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:1:	Possible God class (WMC=48, ATFD=61, TCC=0.0)
+src/main/java/visitors/CompensationEngineVisitor.java:2:	Avoid unused imports such as 'java.util.ArrayList'
+src/main/java/visitors/CompensationEngineVisitor.java:3:	Avoid unused imports such as 'java.util.Collections'
+src/main/java/visitors/CompensationEngineVisitor.java:32:	Avoid importing anything from the sun.* packages
+src/main/java/visitors/CompensationEngineVisitor.java:32:	Avoid unused imports such as 'sun.reflect.ReflectionFactory.GetReflectionFactoryAction'
+src/main/java/visitors/CompensationEngineVisitor.java:35:	The class 'CompensationEngineVisitor' has a Cyclomatic Complexity of 4 (Highest = 20).
+src/main/java/visitors/CompensationEngineVisitor.java:35:	The class 'CompensationEngineVisitor' has a Modified Cyclomatic Complexity of 4 (Highest = 14).
+src/main/java/visitors/CompensationEngineVisitor.java:35:	The class 'CompensationEngineVisitor' has a Standard Cyclomatic Complexity of 4 (Highest = 14).
+src/main/java/visitors/CompensationEngineVisitor.java:35:	headerCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:36:	fieldCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/CompensationEngineVisitor.java:38:	Private field 'valueModel' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/visitors/CompensationEngineVisitor.java:38:	fieldCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/CompensationEngineVisitor.java:39:	fieldCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:40:	Avoid excessively long variable names like processesToBeDeleted
+src/main/java/visitors/CompensationEngineVisitor.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/CompensationEngineVisitor.java:40:	Private field 'processesToBeDeleted' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/visitors/CompensationEngineVisitor.java:40:	fieldCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/CompensationEngineVisitor.java:41:	Private field 'claimsToSettle' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/visitors/CompensationEngineVisitor.java:41:	fieldCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:42:	Avoid excessively long variable names like settlementResource
+src/main/java/visitors/CompensationEngineVisitor.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/CompensationEngineVisitor.java:42:	Private field 'settlementResource' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/visitors/CompensationEngineVisitor.java:42:	fieldCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:44:	Avoid excessively long variable names like settlementResource
+src/main/java/visitors/CompensationEngineVisitor.java:44:	Avoid variables with short names like vm
+src/main/java/visitors/CompensationEngineVisitor.java:44:	Parameter 'settlementResource' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:44:	Parameter 'vm' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:44:	publicMethodCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:53:	Parameter 'concept' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:53:	publicMethodCommentRequirement Required
+src/main/java/visitors/CompensationEngineVisitor.java:54:	Avoid using if...else statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:55:	Avoid using if...else statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:56:	Avoid using if...else statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:57:	Avoid using if...else statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:60:	Found 'UR'-anomaly for variable 'deleteProcess' (lines '60'-'70').
+src/main/java/visitors/CompensationEngineVisitor.java:60:	Parameter 'compensationBP' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:61:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:61:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:62:	Local variable 'it' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:63:	Avoid variables with short names like p
+src/main/java/visitors/CompensationEngineVisitor.java:63:	Local variable 'p' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:69:	Avoid using for statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:69:	Local variable 'deleteProcess' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:75:	Avoid variables with short names like p
+src/main/java/visitors/CompensationEngineVisitor.java:75:	Parameter 'p' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:76:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:76:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:77:	Local variable 'it' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:78:	Avoid variables with short names like e
+src/main/java/visitors/CompensationEngineVisitor.java:78:	Local variable 'e' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:83:	Avoid variables with short names like e
+src/main/java/visitors/CompensationEngineVisitor.java:83:	Parameter 'e' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:84:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:84:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:85:	Avoid using if...else statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:86:	Avoid using if statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:90:	Avoid unused method parameters such as 'e'.
+src/main/java/visitors/CompensationEngineVisitor.java:90:	Avoid variables with short names like e
+src/main/java/visitors/CompensationEngineVisitor.java:90:	Document empty method
+src/main/java/visitors/CompensationEngineVisitor.java:90:	Parameter 'e' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:94:	Avoid variables with short names like e
+src/main/java/visitors/CompensationEngineVisitor.java:94:	Found 'UR'-anomaly for variable 'alteration' (lines '94'-'172').
+src/main/java/visitors/CompensationEngineVisitor.java:94:	Parameter 'e' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:94:	The method 'compensatePropertyAlterations' has a Cyclomatic Complexity of 20.
+src/main/java/visitors/CompensationEngineVisitor.java:94:	The method 'compensatePropertyAlterations' has a Modified Cyclomatic Complexity of 14.
+src/main/java/visitors/CompensationEngineVisitor.java:94:	The method 'compensatePropertyAlterations' has a Standard Cyclomatic Complexity of 14.
+src/main/java/visitors/CompensationEngineVisitor.java:95:	Local variable 'alterations' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:97:	Avoid excessively long variable names like alterationMarkedForDeletetion
+src/main/java/visitors/CompensationEngineVisitor.java:97:	Local variable 'alterationMarkedForDeletetion' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:99:	Found 'DU'-anomaly for variable 'addToEvents' (lines '99'-'175').
+src/main/java/visitors/CompensationEngineVisitor.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:102:	Comment is too large: Line too long
+src/main/java/visitors/CompensationEngineVisitor.java:105:	Comment is too large: Line too long
+src/main/java/visitors/CompensationEngineVisitor.java:106:	Local variable 'it' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:107:	Local variable 'alteration' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:108:	Local variable 'property' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:110:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:110:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:112:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:112:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:113:	The String literal "Property " appears 6 times in this file; the first occurrence is on line 113
+src/main/java/visitors/CompensationEngineVisitor.java:113:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:116:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:116:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:117:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:119:	Local variable 'claimEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:121:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:121:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:123:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:127:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:127:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:130:	Local variable 'claimEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:132:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:132:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:134:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:138:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:141:	Comment is too large: Line too long
+src/main/java/visitors/CompensationEngineVisitor.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:143:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:143:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:144:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:146:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:146:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:147:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:147:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:149:	Local variable 'claimEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:150:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:151:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:153:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:155:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:155:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:155:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:156:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:156:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:158:	Local variable 'claimEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:159:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:160:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:160:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:162:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:164:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:164:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:171:	Avoid using for statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:171:	Local variable 'alteration' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:174:	Avoid using if statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:177:	Avoid variables with short names like p
+src/main/java/visitors/CompensationEngineVisitor.java:177:	Avoid variables with short names like r
+src/main/java/visitors/CompensationEngineVisitor.java:177:	Parameter 'p' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:177:	Parameter 'r' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:181:	Avoid unused method parameters such as 'process'.
+src/main/java/visitors/CompensationEngineVisitor.java:181:	Parameter 'event' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:181:	Parameter 'process' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:181:	Parameter 'property' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:183:	Local variable 'resource' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:184:	Local variable 'claim' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:184:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:186:	Avoid using if statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:186:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:187:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:190:	Local variable 'ownershipRight' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:190:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:193:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:195:	Local variable 'claimEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:195:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:206:	Avoid variables with short names like a
+src/main/java/visitors/CompensationEngineVisitor.java:206:	Local variable 'a' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:208:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:219:	Found 'UR'-anomaly for variable 'c' (lines '219'-'225').
+src/main/java/visitors/CompensationEngineVisitor.java:219:	Parameter 'compensationBP' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:221:	Avoid using if statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:222:	Local variable 'agentProcessMap' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:224:	Local variable 'c' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:225:	There is log block not surrounded by if
+src/main/java/visitors/CompensationEngineVisitor.java:226:	Local variable 'claimOwner' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:226:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:227:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:229:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:230:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:231:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:232:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:235:	Comment is too large: Line too long
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:236:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:238:	Local variable 'provideClaimEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:238:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:241:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:242:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:242:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:243:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:243:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:245:	Local variable 'transfer' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:245:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:248:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:250:	Local variable 'it' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:250:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:250:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:251:	Local variable 'pairs' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:252:	Local variable 'receiverAgent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:252:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:253:	Local variable 'settlementProcess' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:253:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:256:	Local variable 'settlementEvent' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:256:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:258:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:260:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:261:	Local variable 'transfer' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:261:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/CompensationEngineVisitor.java:262:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:262:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:264:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:265:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:265:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/CompensationEngineVisitor.java:270:	Avoid variables with short names like r
+src/main/java/visitors/CompensationEngineVisitor.java:270:	Found 'UR'-anomaly for variable 'right' (lines '270'-'272').
+src/main/java/visitors/CompensationEngineVisitor.java:270:	Parameter 'r' is not assigned and could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:271:	Local variable 'right' could be declared final
+src/main/java/visitors/CompensationEngineVisitor.java:272:	Avoid using if statements without curly braces
+src/main/java/visitors/CompensationEngineVisitor.java:272:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/CompensationEngineVisitor.java:273:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/visitors/SagaVisitor.java:11:	Avoid unused imports such as 'rea.util.ReaProcessComparator'
+src/main/java/visitors/SagaVisitor.java:15:	headerCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:16:	fieldCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:18:	Avoid using redundant field initializer for 'compensationBP'
+src/main/java/visitors/SagaVisitor.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/SagaVisitor.java:18:	Private field 'compensationBP' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/visitors/SagaVisitor.java:18:	fieldCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/visitors/SagaVisitor.java:19:	Private field 'visitorStack' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/visitors/SagaVisitor.java:19:	fieldCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:21:	publicMethodCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:28:	publicMethodCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:33:	Parameter 'concept' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:33:	publicMethodCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:34:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:35:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:36:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:37:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:40:	Avoid variables with short names like bp
+src/main/java/visitors/SagaVisitor.java:40:	Parameter 'bp' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:40:	publicMethodCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:45:	Local variable 'it' could be declared final
+src/main/java/visitors/SagaVisitor.java:46:	Avoid variables with short names like p
+src/main/java/visitors/SagaVisitor.java:46:	Local variable 'p' could be declared final
+src/main/java/visitors/SagaVisitor.java:47:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:47:	There is log block not surrounded by if
+src/main/java/visitors/SagaVisitor.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:50:	Avoid variables with short names like cp
+src/main/java/visitors/SagaVisitor.java:50:	Local variable 'cp' could be declared final
+src/main/java/visitors/SagaVisitor.java:53:	Local variable 'it2' could be declared final
+src/main/java/visitors/SagaVisitor.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:54:	Local variable 'successor' could be declared final
+src/main/java/visitors/SagaVisitor.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:56:	There is log block not surrounded by if
+src/main/java/visitors/SagaVisitor.java:59:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:64:	Avoid variables with short names like p
+src/main/java/visitors/SagaVisitor.java:64:	Parameter 'p' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:64:	publicMethodCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:66:	Avoid variables with short names like cp
+src/main/java/visitors/SagaVisitor.java:67:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:67:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/SagaVisitor.java:68:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:68:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/SagaVisitor.java:70:	Local variable 'it' could be declared final
+src/main/java/visitors/SagaVisitor.java:70:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:71:	Avoid variables with short names like e
+src/main/java/visitors/SagaVisitor.java:71:	Local variable 'e' could be declared final
+src/main/java/visitors/SagaVisitor.java:72:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:73:	Local variable 'cEvent' could be declared final
+src/main/java/visitors/SagaVisitor.java:75:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:75:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:76:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:84:	Avoid variables with short names like e
+src/main/java/visitors/SagaVisitor.java:84:	Parameter 'e' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:84:	publicMethodCommentRequirement Required
+src/main/java/visitors/SagaVisitor.java:85:	There is log block not surrounded by if
+src/main/java/visitors/SagaVisitor.java:87:	Local variable 'cEvent' could be declared final
+src/main/java/visitors/SagaVisitor.java:87:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/SagaVisitor.java:92:	Avoid using if...else statements without curly braces
+src/main/java/visitors/SagaVisitor.java:93:	Avoid using if statements without curly braces
+src/main/java/visitors/SagaVisitor.java:101:	Parameter 'cEvent' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:101:	Parameter 'oEvent' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:102:	Local variable 'transfers' could be declared final
+src/main/java/visitors/SagaVisitor.java:103:	Local variable 'it2' could be declared final
+src/main/java/visitors/SagaVisitor.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:104:	Local variable 'transfer' could be declared final
+src/main/java/visitors/SagaVisitor.java:105:	Local variable 'cTransfer' could be declared final
+src/main/java/visitors/SagaVisitor.java:105:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/SagaVisitor.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:108:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/visitors/SagaVisitor.java:112:	Parameter 'cEvent' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:112:	Parameter 'oEvent' is not assigned and could be declared final
+src/main/java/visitors/SagaVisitor.java:113:	Local variable 'alterations' could be declared final
+src/main/java/visitors/SagaVisitor.java:114:	Local variable 'it2' could be declared final
+src/main/java/visitors/SagaVisitor.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:115:	Local variable 'alteration' could be declared final
+src/main/java/visitors/SagaVisitor.java:116:	Local variable 'cAlteration' could be declared final
+src/main/java/visitors/SagaVisitor.java:116:	Potential violation of Law of Demeter (static property access)
+src/main/java/visitors/SagaVisitor.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/visitors/SagaVisitor.java:119:	Potential violation of Law of Demeter (method chain calls)
